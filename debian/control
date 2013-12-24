@@ -1,8 +1,9 @@
 Source: markupsafe
 Section: python
 Priority: optional
-Maintainer: Piotr Ożarowski <piotr@debian.org>
-Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+XSBC-Pexip-Original-Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 5),
  python-all-dev (>= 2.6.5-2), python3-all-dev (>= 3.1.2-8~),
  python-all-dbg, python3-all-dbg,
@@ -12,6 +13,7 @@ Homepage: http://pypi.python.org/pypi/MarkupSafe
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/markupsafe/trunk
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/markupsafe/trunk/
 XS-Python-Version: >= 2.4
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: python-markupsafe
 Architecture: any
