@@ -1,3 +1,25 @@
+markupsafe (0.23-3) unstable; urgency=medium
+
+  [ Piotr Ożarowski ]
+  * Add dh-python to Build-Depends
+  * dh_builddeb now uses the default compression (xz) instead of bzip2
+    (closes: #833218)
+  * Standards-Version bumped to 3.9.8 (no changes needed)
+
+  [ Ondřej Nový ]
+  * Fixed homepage (https)
+  * Fixed VCS URL (https)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Sun, 06 Nov 2016 23:19:04 +0100
+
+markupsafe (0.23-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Bump Standards-Version with no other changes necessary.
+  * d/watch: Use pypi.debian.net redirector.
+
+ -- Barry Warsaw <barry@debian.org>  Mon, 29 Jun 2015 19:08:16 -0400
+
 markupsafe (0.23-1) unstable; urgency=medium
 
   * New upstream release
