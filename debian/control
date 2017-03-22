@@ -13,7 +13,7 @@ Homepage: http://pypi.python.org/pypi/MarkupSafe
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/markupsafe/trunk
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/markupsafe/trunk/
 XS-Python-Version: >= 2.4
-XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python-markupsafe
 Architecture: any
