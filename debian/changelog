@@ -1,3 +1,9 @@
+markupsafe (0.23-3pexip1) pexip; urgency=medium
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 10 Jul 2018 11:29:35 +0000
+
 markupsafe (0.23-3) unstable; urgency=medium
 
   [ Piotr Ożarowski ]
