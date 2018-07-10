@@ -1,2 +1,3 @@
 version=3
-http://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-(.*)\.tar\.gz
+opts=uversionmangle=s/(rc|a|b|c)/~$1/ \
+http://pypi.debian.net/MarkupSafe/MarkupSafe-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
