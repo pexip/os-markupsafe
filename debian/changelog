@@ -1,3 +1,9 @@
+markupsafe (0.23-3pexip2) pexip; urgency=medium
+
+  * Make available for Python3
+
+ -- Carl Chipperfield <carl@pexip.com>  Tue, 18 Jun 2019 15:47:51 +0000
+
 markupsafe (0.23-3pexip1) pexip; urgency=medium
 
   * Migrate to Stretch
