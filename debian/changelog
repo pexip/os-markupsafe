@@ -1,3 +1,9 @@
+markupsafe (1.1.0-1pexip1) pexip; urgency=medium
+
+  * Migrate to Buster
+
+ -- Vincent Sanders <vince@pexip.com>  Sat, 29 Feb 2020 17:45:27 +0000
+
 markupsafe (1.1.0-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
