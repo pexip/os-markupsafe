@@ -26,5 +26,6 @@ src/markupsafe/_native.py
 src/markupsafe/_speedups.c
 tests/conftest.py
 tests/test_escape.py
+tests/test_exception_custom_html.py
 tests/test_leak.py
 tests/test_markupsafe.py
