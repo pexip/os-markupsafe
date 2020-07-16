@@ -1,3 +1,9 @@
+markupsafe (1.1.0-1pexip2) pexip; urgency=medium
+
+  * Rebuild in buster environment
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Jul 2020 01:09:45 +0000
+
 markupsafe (1.1.0-1pexip1) pexip; urgency=medium
 
   * Migrate to Buster
