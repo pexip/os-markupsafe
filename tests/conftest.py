@@ -5,7 +5,7 @@ from markupsafe import _native
 try:
     from markupsafe import _speedups
 except ImportError:
-    _speedups = None
+    _speedups = None  # type: ignore
 
 
 @pytest.fixture(
@@ -34,4 +34,4 @@ def escape_silent(_mod):
 
 @pytest.fixture(scope="session")
 def soft_str(_mod):
-    return _mod.soft_unicode
+    return _mod.soft_str

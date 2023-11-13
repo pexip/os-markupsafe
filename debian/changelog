@@ -1,3 +1,56 @@
+markupsafe (2.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Piotr Ożarowski <piotr@debian.org>  Fri, 20 Jan 2023 14:38:56 +0100
+
+markupsafe (2.1.1-1) unstable; urgency=medium
+
+  [ Timo Röhling ]
+  * Migrate d/rules to dh --buildsystem=pybuild
+  * Bump Standards-Version to 4.6.1
+  * Bump debhelper-compat to 13
+  * Update d/watch to version 4 format
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Name, Repository,
+    Repository-Browse.
+
+  [ Piotr Ożarowski ]
+  * New upstream release
+
+ -- Piotr Ożarowski <piotr@debian.org>  Wed, 14 Sep 2022 11:24:22 +0200
+
+markupsafe (2.0.1-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 01 Oct 2021 11:23:04 +0200
+
+markupsafe (2.0.1-1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 9 to 12.
+  * Apply multi-arch hints.
+    + python-markupsafe-dbg, python3-markupsafe-dbg: Add Multi-Arch: same.
+
+  [ Ondřej Nový ]
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Sandro Tosi ]
+  * Use the new Debian Python Team contact name and address
+
+  [ Thomas Goirand ]
+  * Team upload.
+  * New upstream release.
+  * Ran wrap-and-sort -bastk.
+  * Removed useless versions in build-depends.
+  * Kill Python2 and dbg packages. (Closes: #994309).
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 17 Sep 2021 23:27:58 +0200
+
 markupsafe (1.1.1-1pexip3) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
