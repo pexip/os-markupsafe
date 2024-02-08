@@ -1,3 +1,31 @@
+Version 2.1.5
+-------------
+
+Released 2024-02-02
+
+-   Fix ``striptags`` not collapsing spaces. :issue:`417`
+
+
+Version 2.1.4
+-------------
+
+Released 2024-01-19
+
+-   Don't use regular expressions for ``striptags``, avoiding a performance
+    issue. :pr:`413`
+
+
+Version 2.1.3
+-------------
+
+Released 2023-06-02
+
+-   Implement ``format_map``, ``casefold``, ``removeprefix``, and ``removesuffix``
+    methods. :issue:`370`
+-   Fix static typing for basic ``str`` methods on ``Markup``. :issue:`358`
+-   Use ``Self`` for annotating return types. :pr:`379`
+
+
 Version 2.1.2
 -------------
 
