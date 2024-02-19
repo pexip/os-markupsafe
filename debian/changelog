@@ -1,3 +1,9 @@
+markupsafe (2.1.2-1+pexip24u4) pexip; urgency=medium
+
+  * Add Breaks: on older python3-jinja2 versions
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 19 Feb 2024 15:51:19 +0000
+
 markupsafe (2.1.2-1+pexip24u3) pexip-bookworm; urgency=medium
 
   * New versioning scheme
