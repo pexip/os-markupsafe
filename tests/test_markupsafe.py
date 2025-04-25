@@ -73,7 +73,7 @@ def test_escaping(escape):
         Markup(
             "<!-- outer comment -->"
             "<em>Foo &amp; Bar"
-            "<!-- inner comment about <em> -->"
+            " <!-- inner comment about <em> -->\n "
             "</em>"
             "<!-- comment\nwith\nnewlines\n-->"
             "<meta content='tag\nwith\nnewlines'>"
@@ -106,6 +106,11 @@ def test_format():
 
     result = Markup("{0[1][bar]}").format([0, {"bar": Markup("<bar/>")}])
     assert result == "<bar/>"
+
+
+def test_format_map():
+    result = Markup("<em>{value}</em>").format_map({"value": "<value>"})
+    assert result == "<em>&lt;value&gt;</em>"
 
 
 def test_formatting_empty():
